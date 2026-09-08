@@ -26,7 +26,36 @@ Alur setiap menu:
 3. Kelola Data Penyewaan
 
    Pengguna memasukkan data penyewaan seperti ID penyewaan, ID pelanggan, ID alat, dan lama sewa. Program mencari harga alat berdasarkan ID alat, kemudian menghitung total harga berdasarkan harga sewa dan lama sewa. Data tersebut digunakan untuk membuat object Penyewaan dan dimasukkan ke dalam ArrayList daftarPenyewaan.
+
+4. Tampilkan Data
+
+   Program memeriksa apakah ArrayList memiliki data. Jika belum ada data, program menampilkan pesan bahwa data belum tersedia. Jika terdapat data, program menggunakan perulangan for untuk mengambil setiap data menggunakan get(i), kemudian menampilkannya.
+
+5. Update Data
+
+   Pengguna memasukkan ID data yang ingin diubah. Program melakukan pencarian menggunakan perulangan. Jika ID ditemukan, pengguna dapat memasukkan data baru dan data tersebut akan diperbarui.
+
+6. Hapus Data
+
+   Pengguna memasukkan ID data yang ingin dihapus. Program mencari ID tersebut di dalam ArrayList. Jika ditemukan, data dihapus menggunakan remove(i). Jika tidak ditemukan, program menampilkan pesan bahwa data tidak ditemukan.
+
+7. Keluar
+
+   Jika pengguna memilih menu keluar, kondisi pada perulangan utama terpenuhi sehingga perulangan berhenti dan program selesai.
+
+### Dokumentasi Alur Program
+1. Tampilan Menu Utama
+```
+=================================
+ SISTEM PENYEWAAN ALAT MUSIK
+=================================
+1. Kelola Data Alat Musik
+2. Kelola Data Pelanggan
+3. Kelola Data Penyewaan
+4. Keluar
+=================================
+Pilih menu:
 ```
 
-```
+    ditampilan
 
