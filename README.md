@@ -55,7 +55,19 @@ Alur setiap menu:
 4. Keluar
 =================================
 Pilih menu:
+
+
 ```
+Menu utama berfungsi sebagai halaman awal untuk mengakses fitur-fitur dalam sistem penyewaan alat musik. Kelola Data Alat Musik digunakan untuk menambah, melihat, mengubah, dan menghapus data alat musik yang tersedia untuk disewa. Kelola Data Pelanggan digunakan untuk mengelola data pelanggan yang melakukan penyewaan, seperti ID, nama, nomor telepon, dan alamat. Kelola Data Penyewaan digunakan untuk mencatat dan mengelola transaksi penyewaan dengan memasukkan data pelanggan, alat musik, serta lama penyewaan dan menghitung total harga. Sedangkan Keluar digunakan untuk mengakhiri program setelah pengguna selesai menggunakan sistem.
 
-    ditampilan
-
+2. Kelola Data Alat Musik
+```
+===== DATA ALAT MUSIK =====
+1. Tambah Alat
+2. Lihat Alat
+3. Ubah Alat
+4. Hapus Alat
+5. Kembali
+Pilih menu:
+```
+Pada bagian Data Alat Musik, submenu ini berfungsi untuk mengelola seluruh data alat musik yang terdapat dalam sistem. Tambah Alat digunakan untuk memasukkan data alat musik baru, Lihat Alat digunakan untuk menampilkan seluruh data alat musik yang tersimpan, Ubah Alat digunakan untuk memperbarui informasi alat musik yang sudah ada, sedangkan Hapus Alat digunakan untuk menghapus data alat musik berdasarkan ID alat. Pilihan Kembali digunakan untuk kembali ke menu utama setelah selesai mengelola data alat musik.
